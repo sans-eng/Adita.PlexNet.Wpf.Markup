@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Adita.PlexNet.Wpf.Markup.Samples.Services
+﻿namespace Adita.PlexNet.Wpf.Markup.Samples.Services
 {
     public class DataService
     {
