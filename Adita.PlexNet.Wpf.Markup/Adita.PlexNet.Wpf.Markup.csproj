@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <Title>Adita.PlexNet.Wpf.Markup</Title>
+    <Version>1.0.0.0</Version>
+    <Authors>Setya Adi Kurnia</Authors>
+    <Company>Adita</Company>
+    <Description>WPF Markup extensions for PlexNet framework that targeting .NET 6</Description>
+    <Copyright>© 2022 Adita</Copyright>
+    <PackageProjectUrl>https://plexdotnet.adita-engineering.com</PackageProjectUrl>
+    <PackageIcon>favicon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/sans-eng/Adita.PlexNet.Wpf.Markup</RepositoryUrl>
+    <PackageTags>wpf; markupextensions; markup; net; net6; plexnet;</PackageTags>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\favicon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Adita.PlexNet.Core.Hosting" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
